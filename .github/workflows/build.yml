@@ -29,7 +29,7 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         
-      - name: Setup PHP with Xdebug
+        - name: Setup PHP with Xdebug
           uses: shivammathur/setup-php@v2
           with:
             php-version: '8.1'
